@@ -1,24 +1,25 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const ThemeToggle: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     if (isDarkMode) {
-      document.documentElement.classList.add('dark');
+      document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove("dark");
     }
   }, [isDarkMode]);
 
   return (
     <button
       onClick={() => setIsDarkMode(!isDarkMode)}
-      className="absolute top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800"
+      className="absolute bottom-4 left-4 p-2 text-xl cursor-pointer"
+      aria-label="Toggle theme"
     >
-      {isDarkMode ? '🌞' : '🌚'}
+      {isDarkMode ? "🌞" : "🌚"}
     </button>
   );
 };
