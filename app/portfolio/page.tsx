@@ -49,7 +49,7 @@ export default function Portfolio() {
           </div>
           <h1 className="text-4xl font-bold mb-2">{profile.name}</h1>
           <h2 className="text-2xl mb-2">{profile.title}</h2>
-          <p className="text-lg mb-2">{profile.subtitle}</p>
+          <p className="text-lg mb-4">{profile.subtitle}</p>
           <div className="flex">
             <a
               href={profile.contact.linkedin}
@@ -89,9 +89,11 @@ export default function Portfolio() {
                 </a>
               </li>
               <li>
-                <a href="#projects" className="text-lg hover:text-blue-500">
-                  {config.sections.projects}
-                </a>
+                {profile.projects.length > 0 && (
+                  <a href="#projects" className="text-lg hover:text-blue-500">
+                    {config.sections.projects}
+                  </a>
+                )}
               </li>
               <li>
                 <a href="#experience" className="text-lg hover:text-blue-500">
@@ -103,29 +105,26 @@ export default function Portfolio() {
                   {config.sections.education}
                 </a>
               </li>
-              <li>
-                <a href="#contact" className="text-lg hover:text-blue-500">
-                  {config.sections.contact}
-                </a>
-              </li>
             </ul>
           </nav>
         </div>
         <div className="md:w-2/3 md:ml-[33.333333%] p-8">
-          <section id="about" className="mb-16">
+          <section id="about" className="py-4 mb-4">
             <h2 className="text-3xl font-bold mb-4">{config.sections.about}</h2>
             <p className="text-lg leading-relaxed">{profile.about_me}</p>
           </section>
-          <section id="skills" className="mb-16">
-            <Skills skills={profile.skills.map((name) => ({ name }))} />
+          <section id="skills" className="py-4 mb-4">
+            <Skills skills={profile.skills} />
           </section>
-          <section id="projects" className="mb-16">
-            <Projects projects={profile.projects} />
-          </section>
-          <section id="experience" className="mb-16">
+          {profile.projects.length > 0 && (
+            <section id="projects" className="py-4 mb-4">
+              <Projects projects={profile.projects} />
+            </section>
+          )}
+          <section id="experience" className="py-4 mb-4">
             <Experience experience={profile.experience} />
           </section>
-          <section id="education" className="mb-16">
+          <section id="education" className="py-4 mb-4">
             <Education education={profile.education} />
           </section>
         </div>

@@ -2,33 +2,86 @@
   "name": "James Ashok R",
   "title": "Senior Web Engineer",
   "subtitle": "Analysis & Debugging Wizard 🪄",
-  "salutation": "Hi! I'm James",
-  "about_me": "Senior Software Engineer, specialised in React. My perseverance and analytical thinking make me a skilled debugger. I architect highly reusable solutions with minimal code and minimal rework. Strong believer in open-source. AI agentic era enthusiast!",
+  "about_me": "Hi! I'm James, a Senior Software Engineer, specialised in React. My perseverance and analytical thinking make me a skilled debugger. I architect highly reusable solutions with minimal code and minimal rework. Strong believer in open-source. AI agentic era enthusiast!",
   "skills": [
-    "React",
-    "JavaScript",
-    "TypeScript",
-    "jQuery",
-    "HTML5",
-    "CSS3",
-    "SCSS",
-    "Zoom VideoSDK Web",
-    "Chakra UI",
-    "Tailwind CSS",
-    "Core Web Vitals Optimisations",
-    "Accessibility",
-    "SEO",
-    "Cursor",
-    "Git",
-    "REST API",
-    "Sentry",
-    "Scalable Web Applications",
-    "Software Design Patterns",
-    "Solution Architecture",
-    "Express JS",
-    "Google Analytics",
-    "Google Tag Manager",
-    "Node.js"
+    {
+      "name": "React",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+    },
+    {
+      "name": "TypeScript",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+    },
+    {
+      "name": "JavaScript",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+    },
+    {
+      "name": "jQuery",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg"
+    },
+    {
+      "name": "HTML5",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+    },
+    {
+      "name": "CSS3",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+    },
+    {
+      "name": "Sass",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+    },
+    {
+      "name": "Chakra UI",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chakraui/chakraui-original.svg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    },
+    {
+      "name": "Git",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+    },
+    {
+      "name": "Sentry",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg"
+    },
+    {
+      "name": "REST API"
+    },
+    {
+      "name": "Express JS",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+    },
+    {
+      "name": "Node.js",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+    },
+    {
+      "name": "Google Analytics",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg"
+    },
+    {
+      "name": "Google Tag Manager",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg"
+    },
+    {
+      "name": "Zoom VideoSDK Web"
+    },
+    {
+      "name": "Core Web Vitals"
+    },
+    {
+      "name": "Accessibility"
+    },
+    {
+      "name": "SEO"
+    },
+    {
+      "name": "Solution Architecture"
+    }
   ],
   "projects": [],
   "experience": [
@@ -81,7 +134,7 @@
     }
   ],
   "contact": {
-    "linkedin": "[Your LinkedIn Profile URL]",
-    "github": "[Your GitHub Profile URL]"
+    "linkedin": "https://www.linkedin.com/in/jamesashok/",
+    "github": "https://github.com/jamesashokfe"
   }
 }
