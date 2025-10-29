@@ -16,7 +16,7 @@ const ThemeToggle: React.FC = () => {
   return (
     <button
       onClick={() => setIsDarkMode(!isDarkMode)}
-      className="absolute bottom-4 left-4 p-2 text-xl cursor-pointer"
+      className="absolute max-md:top-4 max-md:right-4 max-md:opacity-25 md:bottom-4 md:left-4 p-2 text-xl cursor-pointer"
       aria-label="Toggle theme"
     >
       {isDarkMode ? "🌞" : "🌚"}

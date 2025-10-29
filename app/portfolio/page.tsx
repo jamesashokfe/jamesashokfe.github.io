@@ -11,8 +11,8 @@ import Link from "next/link";
 export default function Portfolio() {
   return (
     <div className="antialiased text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-900 flex flex-col md:flex-row">
-      <div className="md:w-1/3 md:fixed md:h-screen bg-gray-100 dark:bg-gray-800 p-8 flex flex-col justify-center items-center text-center">
-        <div className="relative w-32 h-32 xl:w-64 xl:h-64 mb-4">
+      <div className="md:w-1/3 md:fixed md:h-screen bg-gray-100 dark:bg-gray-800 px-8 py-12 flex flex-col lg:justify-center items-center text-center">
+        <div className="relative w-32 h-32 lg:w-48 lg:h-48 xl:w-64 xl:h-64 mb-4">
           <Image
             src="/profile.jpg"
             alt="Your Name"
@@ -22,13 +22,13 @@ export default function Portfolio() {
             priority
           />
         </div>
-        <h1 className="text-4xl font-bold mb-2">{profile.name}</h1>
-        <h2 className="text-2xl mb-2">{profile.title}</h2>
-        <p className="text-lg mb-4">{profile.subtitle}</p>
+        <h1 className="text-2xl lg:text-4xl font-bold mb-2">{profile.name}</h1>
+        <h2 className="text-lg lg:text-2xl mb-2">{profile.title}</h2>
+        <p className="text-md lg:text-lg mb-4">{profile.subtitle}</p>
         <div className="flex">
           <Link
             href={profile.contact.linkedin}
-            className="w-8 h-8 mr-3 p-6 relative bg-gray-100 rounded-sm"
+            className="mr-2 p-4 relative bg-gray-100 rounded-xs hover:opacity-75"
             target="_blank"
           >
             <Image
@@ -41,7 +41,7 @@ export default function Portfolio() {
           </Link>
           <Link
             href={profile.contact.github}
-            className="w-8 h-8 mr-3 p-6 relative bg-gray-100 rounded-sm"
+            className="mr-2 p-4 relative bg-gray-100 rounded-xs hover:opacity-75"
             target="_blank"
           >
             <Image
@@ -53,7 +53,7 @@ export default function Portfolio() {
             />
           </Link>
         </div>
-        <nav className="mt-8">
+        <nav className="mt-8 max-md:hidden">
           <ul className="space-y-2">
             <li>
               <Link href="#about" className="text-lg hover:text-blue-500">
