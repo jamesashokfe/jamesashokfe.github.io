@@ -31,6 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Verify static export configuration
+        run: |
+          if ! grep -q "output.*export" next.config.js 2>/dev/null && ! grep -q "\"out\"" package.json 2>/dev/null; then
+            echo "Error: Next.js must be configured with 'output: \"export\"' in next.config.js for static export"
+            exit 1
+          fi
       - name: Detect package manager
         id: detect-package-manager
         run: |
