@@ -24,6 +24,7 @@ const MiniProfile = () => {
           href={profile.contact.linkedin}
           className="mr-2 p-4 relative bg-gray-100 rounded-sm border-2 border-transparent dark:border-gray-800 hover:border-blue-500 dark:hover:border-blue-400"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <Image
             src={`https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg`}
@@ -37,6 +38,7 @@ const MiniProfile = () => {
           href={profile.contact.github}
           className="mr-2 p-4 relative bg-gray-100 rounded-sm border-2 border-transparent dark:border-gray-800 hover:border-blue-500 dark:hover:border-blue-400"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <Image
             src={`https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg`}
