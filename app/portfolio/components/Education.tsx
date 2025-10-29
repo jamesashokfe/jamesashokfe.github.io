@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface EducationItem {
   school_name: string;
   degree_title: string;
@@ -10,7 +8,7 @@ interface EducationProps {
   education: EducationItem[];
 }
 
-const Education: React.FC<EducationProps> = ({ education }) => {
+const Education = ({ education }: EducationProps) => {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-4">Education</h2>

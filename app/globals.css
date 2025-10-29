@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
+/* The custom variant dark is for development purposes only */
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  scroll-behavior: smooth;
 }
 
 @theme inline {

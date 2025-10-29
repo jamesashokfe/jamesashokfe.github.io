@@ -1,10 +1,6 @@
-
 export const config = {
-  salutation: "Hi! I'm",
-  title: "Senior Web Engineer",
-  subtitle: "Analysis & Debugging Wizard 🪄",
   sections: {
-    about: "About",
+    about: "About Me ✨",
     skills: "Skills",
     projects: "Projects",
     experience: "Experience",
