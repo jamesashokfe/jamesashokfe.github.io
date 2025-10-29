@@ -1,6 +1,6 @@
 export const config = {
   sections: {
-    about: "About",
+    about: "About Me ✨",
     skills: "Skills",
     projects: "Projects",
     experience: "Experience",

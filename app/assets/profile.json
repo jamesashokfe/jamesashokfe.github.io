@@ -1,6 +1,6 @@
 {
   "name": "James Ashok R",
-  "title": "Senior Web Engineer",
+  "title": "Senior Web Engineer 👨‍💻",
   "subtitle": "Analysis & Debugging Wizard 🪄",
   "about_me": "Hi! I'm James, a Senior Software Engineer, specialised in React. My perseverance and analytical thinking make me a skilled debugger. I architect highly reusable solutions with minimal code and minimal rework. Strong believer in open-source. AI agentic era enthusiast!",
   "skills": [
@@ -15,6 +15,10 @@
     {
       "name": "JavaScript",
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+    },
+    {
+      "name": "Next.js",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
     },
     {
       "name": "jQuery",
@@ -43,6 +47,10 @@
     {
       "name": "Git",
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+    },
+    {
+      "name": "GitHub Actions",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
     },
     {
       "name": "Sentry",

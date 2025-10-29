@@ -14,7 +14,7 @@ interface ProjectsProps {
   projects: Project[];
 }
 
-const Projects: React.FC<ProjectsProps> = ({ projects }) => {
+const Projects = ({ projects }: ProjectsProps) => {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-4">Projects</h2>

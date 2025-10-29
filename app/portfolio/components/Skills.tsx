@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 interface Skill {
@@ -10,7 +9,7 @@ interface SkillsProps {
   skills: Skill[];
 }
 
-const Skills: React.FC<SkillsProps> = ({ skills }) => {
+const Skills = ({ skills }: SkillsProps) => {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-4">Skills</h2>
