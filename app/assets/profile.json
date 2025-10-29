@@ -1,0 +1,122 @@
+{
+    "name": "James Ashok R",
+    "title": "Senior Web Engineer",
+    "subtitle": "Analysis & Debugging Wizard 🪄",
+    "salutation": "Hi! I'm James",
+    "about_me": "Senior Software Engineer, specialised in React. My perseverance and analytical thinking make me a skilled debugger. I architect highly reusable solutions with minimal code and minimal rework. Strong believer in open-source. AI agentic era enthusiast!",
+    "skills": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "jQuery",
+      "HTML5",
+      "CSS3",
+      "SCSS",
+      "Zoom VideoSDK Web",
+      "Chakra UI",
+      "Tailwind CSS",
+      "Core Web Vitals Optimisations",
+      "Accessibility",
+      "SEO",
+      "Cursor",
+      "Git",
+      "REST API",
+      "Sentry",
+      "Scalable Web Applications",
+      "Software Design Patterns",
+      "Solution Architecture",
+      "Express JS",
+      "Google Analytics",
+      "Google Tag Manager",
+      "Node.js"
+    ],
+    "projects": [
+      {
+        "name": "Performance & Accessibility Guidelines",
+        "description": "Investigated various sites and crafted over 40 detailed performance, accessibility, and SEO guidelines for engineering teams.",
+        "technologies": [
+          { "name": "Web Performance", "description": "" },
+          { "name": "Accessibility", "description": "" },
+          { "name": "SEO", "description": "" }
+        ],
+        "image": "",
+        "link": ""
+      },
+      {
+        "name": "Page Load Optimisation Initiative",
+        "description": "Improved page load performance by 30% across multiple projects/brands by optimising Critical CSS, JavaScript, fonts, and 3rd party scripts.",
+        "technologies": [
+          { "name": "Core Web Vitals", "description": "" },
+          { "name": "Critical CSS/JS", "description": "" },
+          { "name": "Web Performance", "description": "" }
+        ],
+        "image": "",
+        "link": ""
+      },
+      {
+        "name": "React Component Library Creation",
+        "description": "Implemented reusable and extensible React UI components across 30+ brands, supporting 20+ brand themes per client, ensuring consistent customer journey.",
+        "technologies": [
+          { "name": "React", "description": "" },
+          { "name": "Atomic Design", "description": "" },
+          { "name": "Storybook", "description": "" }
+        ],
+        "image": "",
+        "link": ""
+      }
+    ],
+    "experience": [
+      {
+        "company_name": "TaskHuman",
+        "role": "Senior Web Engineer",
+        "duration": "Dec 2024 - Present (11 mos)",
+        "impact_achieved": [
+          "Engineered key features (screen-share, pre-call tests) to significantly elevate the user calling experience.",
+          "Increased video-call stability, successfully minimising call drops by 40%.",
+          "Spearheaded AI tool adoption across research, architecture, and feature implementation for maximised efficiency.",
+          "Optimised LCP/FCP, slashing page load time by 30%.",
+          "Boosted crash-free sessions by 10%."
+        ]
+      },
+      {
+        "company_name": "Axelerant",
+        "role": "Senior Software Engineer",
+        "duration": "Oct 2019 - Apr 2024 (4 yrs 7 mos)",
+        "impact_achieved": [
+          "Created user retention-focused features, which improved customer conversion by 20% contributing to overall growth in sales and revenue.",
+          "Implemented React UI components across 30+ brands.",
+          "Improved page load performance by 30%.",
+          "Crafted 40+ performance, accessibility and SEO guidelines for engineering teams.",
+          "Refactored a mid-size app codebase and adopted TypeScript for improved quality and maintenance."
+        ]
+      },
+      {
+        "company_name": "Tata Consultancy Services",
+        "role": "Full Stack Developer",
+        "duration": "Sep 2014 - Oct 2019 (5 yrs 2 mos)",
+        "impact_achieved": [
+          "Built responsive web apps with Angular and Material design with 30+ data presentation components.",
+          "Refactored and reduced codebase by 15%, increasing application performance.",
+          "Maintained service APIs and backend database for business continuity of 4 applications across 20+ markets.",
+          "Trained and mentored 15+ associates through comprehensive training."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school_name": "Loyola Institute of Technology",
+        "degree_title": "Bachelor of Engineering - BE, Computer Science",
+        "duration": "2010 - 2014"
+      },
+      {
+        "school_name": "St. Patrick's Anglo-Indian Higher Secondary School",
+        "degree_title": "Higher Secondary",
+        "duration": "2009 - 2010"
+      }
+    ],
+    "contact": {
+      "linkedin": "[Your LinkedIn Profile URL]",
+      "github": "[Your GitHub Profile URL]"
+    }
+  }
+  
