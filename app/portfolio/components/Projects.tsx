@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Project {
   name: string;
@@ -45,9 +46,9 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
                 </span>
               ))}
             </div>
-            <a href={project.link} className="text-blue-500 hover:underline">
+            <Link href={project.link} className="text-blue-500 hover:underline">
               View Project
-            </a>
+            </Link>
           </div>
         ))}
       </div>

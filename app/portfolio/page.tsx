@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import profile from "../assets/profile.json";
 import { config } from "./config/text";
@@ -8,6 +6,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ThemeToggle from "./components/ThemeToggle";
+import Link from "next/link";
 
 export default function Portfolio() {
   return (
@@ -27,7 +26,7 @@ export default function Portfolio() {
         <h2 className="text-2xl mb-2">{profile.title}</h2>
         <p className="text-lg mb-4">{profile.subtitle}</p>
         <div className="flex">
-          <a
+          <Link
             href={profile.contact.linkedin}
             className="w-8 h-8 mr-3 p-6 relative bg-gray-100 rounded-sm"
             target="_blank"
@@ -39,8 +38,8 @@ export default function Portfolio() {
               className="object-contain"
               unoptimized={true}
             />
-          </a>
-          <a
+          </Link>
+          <Link
             href={profile.contact.github}
             className="w-8 h-8 mr-3 p-6 relative bg-gray-100 rounded-sm"
             target="_blank"
@@ -52,36 +51,36 @@ export default function Portfolio() {
               className="object-contain"
               unoptimized={true}
             />
-          </a>
+          </Link>
         </div>
         <nav className="mt-8">
           <ul className="space-y-2">
             <li>
-              <a href="#about" className="text-lg hover:text-blue-500">
+              <Link href="#about" className="text-lg hover:text-blue-500">
                 {config.sections.about}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#skills" className="text-lg hover:text-blue-500">
+              <Link href="#skills" className="text-lg hover:text-blue-500">
                 {config.sections.skills}
-              </a>
+              </Link>
             </li>
             <li>
               {profile.projects.length > 0 && (
-                <a href="#projects" className="text-lg hover:text-blue-500">
+                <Link href="#projects" className="text-lg hover:text-blue-500">
                   {config.sections.projects}
-                </a>
+                </Link>
               )}
             </li>
             <li>
-              <a href="#experience" className="text-lg hover:text-blue-500">
+              <Link href="#experience" className="text-lg hover:text-blue-500">
                 {config.sections.experience}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#education" className="text-lg hover:text-blue-500">
+              <Link href="#education" className="text-lg hover:text-blue-500">
                 {config.sections.education}
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
