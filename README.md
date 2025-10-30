@@ -1,6 +1,6 @@
-# My Portfolio Website
+# My Profile Website
 
-This is my portfolio website built with:
+This is my profile website built with:
 
 - Next.js
 - Tailwind CSS
