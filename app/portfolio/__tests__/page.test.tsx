@@ -29,31 +29,19 @@ describe("Portfolio Page", () => {
   });
 
   it("applies dark mode classes when in dark mode", () => {
-    // Mock the document element's classList
-    Object.defineProperty(document.documentElement, "classList", {
-      value: {
-        contains: (cls: string) => cls === "dark",
-      },
-      configurable: true,
-    });
-
+    document.documentElement.classList.add("dark");
     render(<Portfolio />);
 
     // Check if dark mode classes are applied
     const container = screen.getByTestId("portfolio");
     expect(container).toHaveClass("dark:bg-gray-900");
     expect(container).toHaveClass("dark:text-gray-200");
+
+    document.documentElement.classList.remove("dark");
   });
 
   it("applies light mode classes when not in dark mode", () => {
-    // Mock the document element's classList
-    Object.defineProperty(document.documentElement, "classList", {
-      value: {
-        contains: () => false,
-      },
-      configurable: true,
-    });
-
+    document.documentElement.classList.remove("dark");
     render(<Portfolio />);
 
     // Check if light mode classes are applied

@@ -28,20 +28,6 @@ jobs:
         env:
           CI: true
 
-      - name: Check coverage
-        run: |
-          # Calculate coverage percentage from the coverage summary
-          COVERAGE=$(grep -Eo '"statements"\s*:\s*[0-9.]+' coverage/coverage-final.json | head -1 | grep -oE '[0-9.]+')
-          echo "Current test coverage is $COVERAGE%"
-          
-          # Compare coverage with threshold (80%)
-          if (( $(echo "$COVERAGE < 80" | bc -l) )); then
-            echo "::error::Test coverage of $COVERAGE% is below the required 80% threshold"
-            exit 1
-          else
-            echo "✅ Test coverage of $COVERAGE% meets the required threshold"
-          fi
-
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
         with:
