@@ -31,7 +31,7 @@ jobs:
       - name: Check coverage
         run: |
           # Calculate coverage percentage from the coverage summary
-          COVERAGE=$(grep -Eo '"statements"\s*:\s*[0-9.]+' coverage/coverage-summary.json | head -1 | grep -oE '[0-9.]+')
+          COVERAGE=$(grep -Eo '"statements"\s*:\s*[0-9.]+' coverage/coverage-final.json | head -1 | grep -oE '[0-9.]+')
           echo "Current test coverage is $COVERAGE%"
           
           # Compare coverage with threshold (80%)
