@@ -190,10 +190,10 @@ const config: Config = {
   testRunner: "jest-circus/runner",
 
   // A map from regular expressions to paths to transformers
-  transform: {
-    // Use babel-jest to transpile tests with the next/babel preset
-    "^.+\\.(js|jsx|ts|tsx)$": ["babel-jest", { presets: ["next/babel"] }],
-  },
+  // transform: {
+  //   // Use babel-jest to transpile tests with the next/babel preset
+  //   "^.+\\.(js|jsx|ts|tsx)$": ["babel-jest", { presets: ["next/babel"] }],
+  // },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
