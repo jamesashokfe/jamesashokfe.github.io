@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "James Ashok R | Senior Web Engineer",
+  title: "James Ashok R | Senior Software Engineer",
   description:
     "Professional portfolio of James Ashok, Senior Software Engineer",
 };

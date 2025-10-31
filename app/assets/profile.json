@@ -1,8 +1,8 @@
 {
   "name": "James Ashok R",
-  "title": "Senior Web Engineer 👨‍💻",
-  "subtitle": "Analysis & Debugging Wizard 🪄",
-  "about_me": "Hi! I'm James, a Senior Software Engineer, specialised in React. My perseverance and analytical thinking make me a skilled debugger. I architect highly reusable solutions with minimal code and minimal rework. Strong believer in open-source. AI agentic era enthusiast!",
+  "title": "Senior Software Engineer 👨‍💻",
+  "subtitle": "Analysis & Debugging Wizard 🎩",
+  "about_me": "Hi! I'm James, a Senior Software Engineer, specialising in React and Web Performance. My perseverance and analytical thinking make me a skilled debugger. I architect highly reusable solutions with minimal code and minimal rework. Strong believer in open-source. AI agentic era enthusiast!",
   "skills": [
     {
       "name": "React",
@@ -76,7 +76,7 @@
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg"
     },
     {
-      "name": "Zoom VideoSDK Web"
+      "name": "Solution Architecture"
     },
     {
       "name": "Core Web Vitals"
@@ -88,7 +88,7 @@
       "name": "SEO"
     },
     {
-      "name": "Solution Architecture"
+      "name": "Zoom VideoSDK Web"
     }
   ],
   "projects": [],
